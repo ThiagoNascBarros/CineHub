@@ -1,4 +1,5 @@
 ﻿using CineHub.Api.Data;
+using CineHub.Api.DTO;
 using CineHub.Api.Models;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -37,10 +38,13 @@ namespace CineHub.Api.Controllers
 
 
         [HttpPost]
-        public IActionResult Post([FromBody] Film film)
+        public IActionResult Post([FromBody] RequestFilmDTO req)
         {
+            var film = new Film(req);
             var entity = _context.Films.Add(film);
+
             _context.SaveChanges();
+           
             return CreatedAtAction(nameof(Get), new { Id = entity.Entity.Id}, film);
         }
 

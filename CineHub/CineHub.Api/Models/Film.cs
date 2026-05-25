@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using CineHub.Api.DTO;
+using System.ComponentModel.DataAnnotations;
 
 namespace CineHub.Api.Models
 {
@@ -14,6 +15,17 @@ namespace CineHub.Api.Models
         [Required]
         [Range(70, 600)]
         public int DurationInMinutes { get; set; }
-        
+
+        public Film(RequestFilmDTO film)
+        {
+            this.Title = film.Title;
+            this.Genre = film.Genre;
+            this.DurationInMinutes = film.DurationInMinutes;
+        }
+
+        public Film()
+        {
+            
+        }
     }
 }

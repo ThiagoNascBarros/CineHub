@@ -9,6 +9,14 @@
     {
       "AbsoluteMoniker": "D:0:0:{B0694A04-EA12-43EC-AC24-F6B788652283}|CineHub.Api\\CineHub.Api.csproj|c:\\users\\tdona\\documents\\github\\cinehub\\cinehub\\cinehub.api\\models\\film.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B0694A04-EA12-43EC-AC24-F6B788652283}|CineHub.Api\\CineHub.Api.csproj|solutionrelative:cinehub.api\\models\\film.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0694A04-EA12-43EC-AC24-F6B788652283}|CineHub.Api\\CineHub.Api.csproj|c:\\users\\tdona\\documents\\github\\cinehub\\cinehub\\cinehub.api\\models\\entitybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0694A04-EA12-43EC-AC24-F6B788652283}|CineHub.Api\\CineHub.Api.csproj|solutionrelative:cinehub.api\\models\\entitybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0694A04-EA12-43EC-AC24-F6B788652283}|CineHub.Api\\CineHub.Api.csproj|c:\\users\\tdona\\documents\\github\\cinehub\\cinehub\\cinehub.api\\dto\\requestfilmdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0694A04-EA12-43EC-AC24-F6B788652283}|CineHub.Api\\CineHub.Api.csproj|solutionrelative:cinehub.api\\dto\\requestfilmdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -28,10 +36,36 @@
               "RelativeDocumentMoniker": "CineHub.Api\\Controllers\\FilmsController.cs",
               "ToolTip": "C:\\Users\\tdona\\Documents\\GitHub\\CineHub\\CineHub\\CineHub.Api\\Controllers\\FilmsController.cs",
               "RelativeToolTip": "CineHub.Api\\Controllers\\FilmsController.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAQwCoAAABBAAAAAAAAAA==",
+              "ViewState": "AgIAABcAAAAAAAAAAAA1wC8AAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-24T03:15:12.861Z",
               "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RequestFilmDTO.cs",
+              "DocumentMoniker": "C:\\Users\\tdona\\Documents\\GitHub\\CineHub\\CineHub\\CineHub.Api\\DTO\\RequestFilmDTO.cs",
+              "RelativeDocumentMoniker": "CineHub.Api\\DTO\\RequestFilmDTO.cs",
+              "ToolTip": "C:\\Users\\tdona\\Documents\\GitHub\\CineHub\\CineHub\\CineHub.Api\\DTO\\RequestFilmDTO.cs",
+              "RelativeToolTip": "CineHub.Api\\DTO\\RequestFilmDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAABSAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-25T01:14:53.735Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EntityBase.cs",
+              "DocumentMoniker": "C:\\Users\\tdona\\Documents\\GitHub\\CineHub\\CineHub\\CineHub.Api\\Models\\EntityBase.cs",
+              "RelativeDocumentMoniker": "CineHub.Api\\Models\\EntityBase.cs",
+              "ToolTip": "C:\\Users\\tdona\\Documents\\GitHub\\CineHub\\CineHub\\CineHub.Api\\Models\\EntityBase.cs",
+              "RelativeToolTip": "CineHub.Api\\Models\\EntityBase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-25T00:56:50.591Z",
               "EditorCaption": ""
             },
             {
@@ -42,7 +76,7 @@
               "RelativeDocumentMoniker": "CineHub.Api\\Models\\Film.cs",
               "ToolTip": "C:\\Users\\tdona\\Documents\\GitHub\\CineHub\\CineHub\\CineHub.Api\\Models\\Film.cs",
               "RelativeToolTip": "CineHub.Api\\Models\\Film.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwBEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-05-24T03:26:19.421Z",
               "EditorCaption": ""
