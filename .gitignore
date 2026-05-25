@@ -52,6 +52,7 @@ CodeCoverage/
 *.VisualState.xml
 TestResult.xml
 nunit-*.xml
+CineHub/.vs/
 CineHub/.vs/CineHub/FileContentIndex/16eb2d7f-cd29-44b4-88c1-344c490e477e.vsidx
 CineHub/.vs/CineHub/FileContentIndex/a81a10bb-58ee-4cb1-a6e7-eeb86076ffcc.vsidx
 CineHub/.vs/CineHub/FileContentIndex/aaad60da-de8d-41fd-ba49-f46b964102cb.vsidx

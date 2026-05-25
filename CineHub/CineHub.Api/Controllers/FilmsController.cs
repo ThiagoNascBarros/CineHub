@@ -1,6 +1,8 @@
-﻿using CineHub.Api.Models;
+﻿using CineHub.Api.Data;
+using CineHub.Api.Models;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using System.Diagnostics;
 
 namespace CineHub.Api.Controllers
 {
@@ -8,18 +10,38 @@ namespace CineHub.Api.Controllers
     [ApiController]
     public class FilmsController : ControllerBase
     {
-        private List<Film> films = [];
 
-        [HttpGet]
-        public List<Film> Get()
+        private readonly DataContext _context;
+
+        public FilmsController(DataContext context)
         {
-            return films;
+            _context = context;
         }
 
-        [HttpPost]
-        public void Post([FromBody] Film film)
+
+        [HttpGet("{id}")]
+        public IActionResult Get(Guid id)
         {
-            films.Add(film);
+            var film = _context.Films.FirstOrDefault(film => film.Id == id);
+            
+            if (film == null) return NotFound();
+
+            return Ok(film);
+        }
+
+        [HttpGet]
+        public IEnumerable<Film> GetAll([FromQuery] int skip = 0, [FromQuery] int take = 50)
+        {
+            return _context.Films.Skip(skip).Take(take);
+        }
+
+
+        [HttpPost]
+        public IActionResult Post([FromBody] Film film)
+        {
+            var entity = _context.Films.Add(film);
+            _context.SaveChanges();
+            return CreatedAtAction(nameof(Get), new { Id = entity.Entity.Id}, film);
         }
 
     }

@@ -2,7 +2,7 @@
 
 namespace CineHub.Api.Models
 {
-    public class Film
+    public class Film : EntityBase
     {
         [Required(ErrorMessage = "The title is mandatory")]
         public string Title { get; set; }
@@ -14,5 +14,6 @@ namespace CineHub.Api.Models
         [Required]
         [Range(70, 600)]
         public int DurationInMinutes { get; set; }
+        
     }
 }
